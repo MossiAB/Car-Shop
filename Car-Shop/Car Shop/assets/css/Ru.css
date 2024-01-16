@@ -1,0 +1,29 @@
+:root {
+  --mainBlue: #40acf1;
+  --transparentBlue: rgba(64, 172, 241, 0.7);
+  --mainWhite: #ffffff;
+  --mainBlack: #292f36;
+  --mainGrey: rgb(216, 214, 214);
+  --mainYellow: #e3b505;
+}
+
+/* section Title */
+.section-title-special{
+  background: var(--transparentBlue);
+  color: var(--mainWhite);
+  padding:.5rem 2rem;
+  clip-path: polygon(10% 0,100% 0,90% 100%,0 100%);
+}
+/* Pre Loader */
+.preloader{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--mainWhite);
+  z-index: 999;
+}
+.hidePreLoader{
+  display: none !important;
+}
